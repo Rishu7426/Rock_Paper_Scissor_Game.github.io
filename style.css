@@ -94,7 +94,7 @@ img{
 
 @media screen and (max-width: 600px) {
     img {
-      height: 12vh;
+      height: 10vh;
     }
   h1{
     font-size: 1.5rem;
