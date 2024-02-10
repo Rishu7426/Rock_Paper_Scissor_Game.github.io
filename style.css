@@ -64,7 +64,6 @@ img{
 .score-board{
     display: flex;
     font-size: 2rem;
-    border: 2px solid rgba(255, 0, 0, 0.06);
     border-width: 1rem;
     margin-left: 10vh;
     margin-right: 10vh;
@@ -100,8 +99,8 @@ img{
   h1{
     font-size: 1.5rem;
   }
-  #msg{
-    font-size: .5rem;
+  #msge{
+    font-size: 1rem;
   }
 }
 
