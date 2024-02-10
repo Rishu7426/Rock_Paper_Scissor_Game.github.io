@@ -55,13 +55,12 @@ let user = choices.forEach((child) => {
       userScore++;
     }
 
-    console.log(`userScore is ${userScore}`);
     scoreUser.innerText = userScore;
-    console.log(`compScore is ${compScore}`);
     scoreComp.innerText = compScore;
 
     restart.addEventListener("click", () => {
-      console.log("game reset");
+      userScore=0;
+      compScore=0;
       scoreUser.innerText = "0";
       scoreComp.innerText = "0";
       display.innerText = " ";
