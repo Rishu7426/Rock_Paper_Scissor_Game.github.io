@@ -43,24 +43,6 @@ img{
     cursor: pointer; 
     
 } 
-@media screen and (max-width: 600px) {
-    img {
-      height: 12vh;
-    }
-  h1{
-    font-size: 1.5rem;
-  }
-  #msg{
-    font-size: 1rem;
-  }
-  }
-
-figcaption{
-    text-align: center;
-    margin: 5px;
-    font-size: 2rem;
-    color: rgba(47, 0, 255, 0.484);
-}
 .choice{
     height: 21vh;
     width: 21vw;
@@ -110,3 +92,16 @@ figcaption{
     cursor: pointer;
     color: cyan;
 }
+
+@media screen and (max-width: 600px) {
+    img {
+      height: 12vh;
+    }
+  h1{
+    font-size: 1.5rem;
+  }
+  #msg{
+    font-size: .5rem;
+  }
+}
+
