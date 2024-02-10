@@ -8,16 +8,15 @@
 
 h1{
     height: 10vh;
-    /* padding-top: 1.5vh ; */
+    width:100vw;
     line-height: 10vh;
     background-color: rgb(255, 146, 3);
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     color: rgb(216, 237, 255);
 }
 #msge{
     margin-top: 5vh;
-    /* border: 2px solid blue; */
     color: rgb(0, 8, 255);
     text-align: center;
     height: 5rem;
@@ -44,11 +43,17 @@ img{
     cursor: pointer; 
     
 } 
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px) {
     img {
-        height: 12vh;
+      height: 12vh;
     }
-} 
+  h1{
+    font-size: 1.5rem;
+  }
+  #msg{
+    font-size: 1rem;
+  }
+  }
 
 figcaption{
     text-align: center;
